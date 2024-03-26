@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css"/>
+<!-- font poppins -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+    <title>Konversi Sistem Bilangan</title>
+</head>
+<body>
+    <h1>Konversi Sistem Bilangan</h1>
+    <form class="centered" onsubmit="return konversi()">
+        <div class="form-group">
+        <select id="dari">
+            <option value="desimal">Desimal</option>
+            <option value="biner">Biner</option>
+            <option value="oktal">Oktal</option>
+            <option value="heksa">Heksa Desimal</option>
+        </select>
+        <label for="ke">Ke:</label>
+        <select id="ke">
+            <option value="desimal">Desimal</option>
+            <option value="biner">Biner</option>
+            <option value="oktal">Oktal</option>
+            <option value="heksa">Heksa Desimal</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <input type="text" id="input" placeholder="Masukkan nilai">
+    </div>
+        <button type="submit">Konversi</button>
+    </form>
+    <p id="hasil"></p>
+    <script src="script.js"></script>
+</body>
+</html>

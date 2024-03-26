@@ -1,0 +1,177 @@
+body {
+
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:'Poppins';
+    width: 100%;
+    height: 94vh;
+    margin-inline: auto;
+    background-image: url("https://free4kwallpapers.com/uploads/originals/2021/03/23/astronauts-wish-wallpaper.jpg");  /* Replace with your image path */
+    background-size: cover;  /* Adjust as needed (cover, contain, etc.) */
+    background-position: center;  /* Adjust as needed (center, top left, etc.) */
+    background-repeat: no-repeat;  /* To prevent image tiling */
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    line-height: 1;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-top: 40px;
+    color: white;
+}
+.form-group label {
+margin-left: 15px;
+margin-right: 15px;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+}
+form {
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+
+}
+
+select#dari {
+    background-color: #04101f;
+    border: 5px solid #ccc;
+    color: white;
+    padding: 25px 40px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+select#ke {
+    background-color: #04101f;
+    border: 5px solid #ccc;
+    color: white;
+    padding: 25px 40px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+
+input#input {
+    background-color: white;
+    font-size: 20px;
+    border-radius: 35px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+
+
+#input {
+    flex-grow: 1;
+    padding: 110px 140px;
+    margin: 0 auto;
+}
+
+button {
+    
+    background-color: white;
+    border: 5px solid #04101f;
+    color: #04101f;
+    padding: 20px 60px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+#hasil {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.centered {
+    margin: 0 auto;
+}
+label {
+    color: whites;
+}
+
+@media screen and (max-width: 480px) {
+body {
+    height: 94vh;
+}  
+h1 {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 15px;
+    padding-top: 100px;
+}
+.form-group label {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+select#dari {
+    border: 3px solid #ccc;
+    padding: 10px 9px;
+    font-size: 15px;
+}
+select#ke {
+    border: 3px solid #ccc;
+    padding: 10px 9px;
+    font-size: 15px;
+}
+input#input {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+#input {
+    padding: 80px 40px;
+}
+
+button {
+    border: 3px solid #04101f;
+    padding: 10px 50px;
+    font-size: 15px;
+}
+#hasil {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    font-size: 25px;
+    grid-template-rows: repeat(auto, 1fr);
+    
+}}
+
